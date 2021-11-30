@@ -1,0 +1,38 @@
+.body {
+    background-color: #EEF1F4;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.image img {
+    height: 30vh;
+    width: 30vh;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+}
+
+.total h3 {
+    color: #790202;
+    font-family: cursive;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.myIcon {
+    color: #790202;
+}

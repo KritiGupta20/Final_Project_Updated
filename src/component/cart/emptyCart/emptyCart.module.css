@@ -1,0 +1,27 @@
+.body {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.empty h2 {
+    margin-top: 20px;
+    color: #790202;
+}
+
+.empty h1 {
+    font-size: 100px;
+    color: #790202;
+}
+
+@media screen and (max-width:500px) {
+    .empty h1 {
+        font-size: x-large;
+    }
+    .empty h2 {
+        font-size: large;
+    }
+}

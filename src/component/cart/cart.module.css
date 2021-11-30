@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cartBody {
+    padding: 30px;
+    background-color: #EEF1F4;
+}
+
+.myCart {
+    border-bottom: 2px solid #0c012f;
+}
+
+.myCart h2 {
+    border-bottom: 2px solid #0c012f;
+    padding-bottom: 10px;
+}
+
+.myCartInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.myCartInfo div {
+    display: flex;
+}
+
+.cartLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.myCartImg img {
+    border-radius: 13px;
+    height: 17vh;
+    width: 150px;
+    margin-right: 15px;
+}
+
+.myCartInfo div p {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.myCartInfo h6 {
+    font-weight: 500;
+    font-size: small;
+}
+
+.myButton {
+    padding: 10px;
+}
+
+.counter button {
+    padding: 0px 12px;
+    font-weight: 500;
+}
+
+.arrow {
+    display: flex;
+    font-size: 2px;
+}
+
+.tempButton {
+    padding: 20px;
+}
+
+.tempButton button {
+    padding: 2px 25px;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    /* color: #E0A800; */
+    border: 3px solid #790202;
+}
+
+@media screen and (max-width:1024px) and (min-width:769px) {
+    .myButton {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .myCartInfo {
+        flex-direction: column;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #0c012f;
+    }
+    .myCartImg img {
+        margin-bottom: 15px;
+    }
+    .myCart {
+        border-bottom: none;
+    }
+    .tempButton button {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .tempButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

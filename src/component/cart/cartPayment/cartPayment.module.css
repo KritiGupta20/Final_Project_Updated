@@ -1,0 +1,99 @@
+.PaymentBody {
+    padding: 30px;
+    background-color: #EEF1F4;
+}
+
+.PaymentHeading {
+    margin-bottom: 10px;
+}
+
+.PaymentHeading h2 {
+    border-bottom: 2px solid #0c012f;
+    padding-bottom: 10px;
+}
+
+.creditCard {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cardHeading {
+    display: flex;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.monthInput::-webkit-outer-spin-button,
+.monthInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.monthInput[type=number] {
+    -moz-appearance: textfield;
+}
+
+.radioButton {
+    margin-right: 20px;
+}
+
+.cardBorder {
+    border-top: 2px solid #757575;
+    border-bottom: 2px solid #757575;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.paypal {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paypalHeading {
+    display: flex;
+}
+
+.paypalButton {
+    margin-right: 20px;
+}
+
+.paypalLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstLogo {
+    height: 10vh;
+    width: 10vh;
+}
+
+.tempButton {
+    padding: 20px;
+}
+
+.tempButton button {
+    padding: 2px 20px;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 3px solid #790202;
+}
+
+@media screen and (max-width:768px) {
+    .tempButton button {
+        margin-bottom: 20px;
+    }
+}

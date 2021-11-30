@@ -1,0 +1,37 @@
+.body {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    background-color: #343A40;
+}
+
+.placed h1 {
+    color: #790202;
+}
+
+.placed p {
+    font-weight: 500;
+    color: #9e9e9d;
+}
+
+.myButton {
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:500px) {
+    .placed h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .placed p {
+        display: none;
+    }
+    .myButton {
+        padding: 5px 10px;
+        font-weight: 600;
+    }
+}

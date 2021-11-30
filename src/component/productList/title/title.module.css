@@ -1,0 +1,19 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: #EEF1F4;
+}
+
+.title h2 {
+    text-shadow: 3px 3px 10px var(--textcolor);
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 13px;
+    font-weight: 500;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.reviewBody {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewBody h2 {
+    text-shadow: 3px 3px 10px var(--textcolor);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.reviewInfo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 30px;
+}
+
+.reviewInfo h6 {
+    font-weight: 500;
+    font-size: small;
+}
+
+.reviewInfo div span {
+    color: #790202;
+}
+
+.reviewLogo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#790202;
+    border: 2px solid #790202;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.reviewPara {
+    font-weight: 500;
+    font-size: medium;
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.myProduct {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid #111; */
+}
+
+.productImage {
+    position: relative;
+}
+
+.productImage:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.productImage button {
+    background-color: #790202;
+    border: none;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    opacity: 0;
+    font-weight: 500;
+    border-radius: 0px 0px 13px 13px;
+}
+
+.productImage button:hover {
+    opacity: 1;
+}
+
+.starIcons {
+    color: #790202;
+}
+
+.myProduct img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.productInfo {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.productInfo h5 {
+    font-weight: 500;
+    color: #111;
+}
+
+.productInfo p {
+    font-size: large;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1024px) {
+    .starIcons {
+        display: flex;
+        font-size: 20px;
+    }
+    .productInfo {
+        width: fit-content;
+    }
+    .productInfo h5 {
+        width: 130px;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:500px) {
+    .myProduct img {
+        height: 100px;
+        width: 75px;
+    }
+    .productImage {
+        overflow: visible;
+    }
+    .productImage button {
+        width: 75px;
+        font-size: small;
+    }
+    .productImage:hover {
+        transform: scale(1);
+    }
+    .productInfo {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .productInfo p {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .myProduct img {
+        height: 140px;
+        width: 140px;
+    }
+    .productImage button {
+        opacity: 1;
+        width: 140px;
+    }
+    .productImage {
+        overflow: visible;
+    }
+    .productImage:hover {
+        transform: scale(1);
+    }
+}
